@@ -21,7 +21,7 @@ Details und Status einzelner Features: [`docs/features/status.md`](docs/features
 ## Schnellstart
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/PROXCLOUT/FTPBOI.git
 cd FTPBOI   # Ordnername kann abweichen
 npm install
 ```
