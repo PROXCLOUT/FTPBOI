@@ -56,3 +56,9 @@ Zusätzliche manuelle Checks: [`docs/bridge-e2e-checklist.md`](docs/bridge-e2e-c
 - **Stack:** React + Zustand im `src/`-Frontend; Befehle und Sessions in `src-tauri/src/` (`lib.rs`, `connection_manager.rs`, `transfer_hub.rs`, …)
 
 **Hinweis:** Das npm-Paket heißt `fz-next`; der Fenstertitel/Bundlename kann „FTPBOI“ sein (`src-tauri/tauri.conf.json`).
+
+## Lizenz
+
+Die vollständigen Bedingungen stehen in [`LICENSE`](LICENSE).
+
+**Kommerzielle Nutzung** dieses Produkts (einschließlich Einsatz in Unternehmen zur Geschäftstätigkeit, Weitergabe oder Angebot als Teil kostenpflichtiger oder geschäftlich motivierter Angebote usw.) ist **ohne vorherige schriftliche Zustimmung des Urheberrechtsinhabers nicht gestattet.** Für Anfragen nutzt ihr die im Repository üblichen Kontaktwege (z. B. Maintainer, Issues).
