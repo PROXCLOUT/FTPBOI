@@ -1,0 +1,92 @@
+# =============================================================================
+# FZ-Next / Tauri + Vite — Open Source (GitHub)
+# Quellcode und Konfiguration committen; Artefakte, Caches und Geheimnisse nicht.
+# =============================================================================
+
+# --- Abhängigkeiten ---
+node_modules/
+
+# --- Frontend-Build (Vite / TypeScript) ---
+dist/
+dist-ssr/
+*.local
+.vite/
+*.tsbuildinfo
+
+# --- Rust / Cargo / Tauri ---
+# Kompilate, Bundles (.app, .dmg, .msi, …) und Zwischenprodukte
+src-tauri/target/
+# Notfall-Backups von rustfmt
+**/*.rs.bk
+
+# --- Umgebung & lokale Geheimnisse (niemals committen) ---
+.env
+.env.*
+!.env.example
+
+# --- Logs ---
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# --- Test-/Coverage-Ausgaben ---
+coverage/
+.nyc_output/
+*.lcov
+
+# --- Betriebssystem ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- Editoren & IDEs ---
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+*~
+
+# --- Zertifikate / Schlüssel (lokal) ---
+*.pem
+*.p12
+*.pfx
+
+# --- Paketmanager-Caches (optional groß) ---
+.npm/
+.pnpm-store/
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# --- Sonstiges / Caches ---
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+.turbo/
+*.pid
+*.seed
+*.pid.lock
+
+# --- Debug-Symbole (Windows) ---
+*.pdb
+
+# --- KI-/Assistenten-Verzeichnisse (nur lokal) ---
+.claude/
